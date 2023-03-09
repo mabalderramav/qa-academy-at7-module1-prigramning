@@ -1,5 +1,7 @@
 package com.qaacademy.module1.programming.class2.stringclass;
 
+import com.qaacademy.module1.programming.class2.inheritance.Vehicle;
+
 public class StringClass {
     public static void main(String[] args) {
         String name = "Bruno";
@@ -31,5 +33,8 @@ public class StringClass {
 
         System.out.println(fullName.endsWith("rios")); // true
         System.out.println(fullName.endsWith("Rios")); // false
+
+        // Default Modifiers
+//        Vehicle vehicle = new Vehicle();
     }
 }
