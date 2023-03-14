@@ -7,7 +7,6 @@ public class FactoryPatternDemo {
         System.out.println(browser.getDriver());
         BrowserReset browserReset = BrowserResetFactory.getBrowser(BrowserType.CHROME);
         browserReset.reset();
-        Firefox firefox = new Firefox();
 
         // Firefox
         browser = BrowserFactory.getBrowser(BrowserType.FIREFOX);
